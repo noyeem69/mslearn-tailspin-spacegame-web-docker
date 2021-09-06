@@ -12,6 +12,9 @@ variables:
 
   # Agent VM image name
 
+resources:
+- repo: self
+
 stages:
 - stage: 'Build'
   displayName: 'Build and push'
